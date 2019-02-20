@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/grid_item_main"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:padding="2dp"
+    android:orientation="vertical">
+
+    <com.app.tfdemo.misc.FourThreeImageView
+        android:id="@+id/grid_item_iv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        tools:src="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/grid_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#80000000"
+        android:padding="8dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="18sp"
+        tools:text="Australia" />
+</FrameLayout>
